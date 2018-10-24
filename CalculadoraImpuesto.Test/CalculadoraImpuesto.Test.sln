@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraImpuesto.Test", "CalculadoraImpuesto.Test\CalculadoraImpuesto.Test.csproj", "{409DC5F2-9813-44C3-AEE6-18EE1862F591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraImpuesto", "CalculadoraImpuesto\CalculadoraImpuesto.csproj", "{4A2D617B-859C-4242-9E8A-E345DB32E884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration", "Integration\Integration.csproj", "{95A5958B-9CBE-4834-95F8-5B666F7AC1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Test", "Integration.Test\Integration.Test.csproj", "{AA732AA0-0217-485C-8F9B-4C4DE158BAE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkedin.DogMeasures", "Linkedin.DogMeasures\Linkedin.DogMeasures.csproj", "{0626BEC9-5770-4744-9837-6E293DA83C59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkedin.DogMeasures.MSTest", "Linkedin.DogMeasures.MSTest\Linkedin.DogMeasures.MSTest.csproj", "{4874F813-354A-487D-861A-A59ACAB2B199}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkedin.DogMeasures.xUnitTest", "Linkedin.DogMeasures.xUnitTest\Linkedin.DogMeasures.xUnitTest.csproj", "{69D85F5C-8286-4B6C-85CF-6DCE355CAFB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkedin.DogMeasures.nUnitTest", "Linkedin.DogMeasures.nUnitTest\Linkedin.DogMeasures.nUnitTest.csproj", "{1518CD4D-C5AF-47EB-987E-EB8F50261CB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkedin.DogMeasuresDependencies", "Linkedin.DogMeasuresDependencies\Linkedin.DogMeasuresDependencies.csproj", "{58797CF9-F57F-428B-B4A2-11FC6A4A0B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkedin.DogMeasuresDependencies.Test", "Linkedin.DogMeasuresDepencies\Linkedin.DogMeasuresDependencies.Test.csproj", "{E4030900-C25E-4B79-87FA-7822697C7E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkedin.DogMeasuresDependecies.MoqTest", "Linkedin.DogMeasuresDependecies.MoqTest\Linkedin.DogMeasuresDependecies.MoqTest.csproj", "{8558AD6C-4E63-40B4-B260-BF8AC72A2989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409DC5F2-9813-44C3-AEE6-18EE1862F591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409DC5F2-9813-44C3-AEE6-18EE1862F591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409DC5F2-9813-44C3-AEE6-18EE1862F591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409DC5F2-9813-44C3-AEE6-18EE1862F591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2D617B-859C-4242-9E8A-E345DB32E884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2D617B-859C-4242-9E8A-E345DB32E884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2D617B-859C-4242-9E8A-E345DB32E884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2D617B-859C-4242-9E8A-E345DB32E884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5958B-9CBE-4834-95F8-5B666F7AC1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A5958B-9CBE-4834-95F8-5B666F7AC1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A5958B-9CBE-4834-95F8-5B666F7AC1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A5958B-9CBE-4834-95F8-5B666F7AC1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA732AA0-0217-485C-8F9B-4C4DE158BAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA732AA0-0217-485C-8F9B-4C4DE158BAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA732AA0-0217-485C-8F9B-4C4DE158BAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA732AA0-0217-485C-8F9B-4C4DE158BAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0626BEC9-5770-4744-9837-6E293DA83C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0626BEC9-5770-4744-9837-6E293DA83C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0626BEC9-5770-4744-9837-6E293DA83C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0626BEC9-5770-4744-9837-6E293DA83C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4874F813-354A-487D-861A-A59ACAB2B199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4874F813-354A-487D-861A-A59ACAB2B199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4874F813-354A-487D-861A-A59ACAB2B199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4874F813-354A-487D-861A-A59ACAB2B199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D85F5C-8286-4B6C-85CF-6DCE355CAFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D85F5C-8286-4B6C-85CF-6DCE355CAFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D85F5C-8286-4B6C-85CF-6DCE355CAFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D85F5C-8286-4B6C-85CF-6DCE355CAFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1518CD4D-C5AF-47EB-987E-EB8F50261CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1518CD4D-C5AF-47EB-987E-EB8F50261CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1518CD4D-C5AF-47EB-987E-EB8F50261CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1518CD4D-C5AF-47EB-987E-EB8F50261CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58797CF9-F57F-428B-B4A2-11FC6A4A0B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58797CF9-F57F-428B-B4A2-11FC6A4A0B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58797CF9-F57F-428B-B4A2-11FC6A4A0B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58797CF9-F57F-428B-B4A2-11FC6A4A0B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4030900-C25E-4B79-87FA-7822697C7E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4030900-C25E-4B79-87FA-7822697C7E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4030900-C25E-4B79-87FA-7822697C7E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4030900-C25E-4B79-87FA-7822697C7E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8558AD6C-4E63-40B4-B260-BF8AC72A2989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8558AD6C-4E63-40B4-B260-BF8AC72A2989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8558AD6C-4E63-40B4-B260-BF8AC72A2989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8558AD6C-4E63-40B4-B260-BF8AC72A2989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CBFD00A-FFEF-45A8-A61C-DDB162AED1AC}
+	EndGlobalSection
+EndGlobal
